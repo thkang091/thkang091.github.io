@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Taehoon Kang</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/daa6d1e32e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <div class = "logo">
+                <span style="--i:1">T</span>
+                <span style="--i:2">a</span>
+                <span style="--i:3">e</span>
+                <span style="--i:4">h</span>
+                <span style="--i:5">o</span>
+                <span style="--i:6">o</span>
+                <span style="--i:7">n</span>
+                <span style="--i:8"> </span>
+                <span style="--i:9"> </span>
+                <span style="--i:10">K</span>
+                <span style="--i:11">a</span>
+                <span style="--i:12">n</span>
+                <span style="--i:13">g</span>
+            </div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm Taehoon Kang</h1>
+            <p>
+
+            </p>
+            <p>Bachelor of Sience in Computer Science</p>
+            
+            <p> University of Minnesota - Twin Cities</p>
+        
+        </div>
+    </div>
+    <div class = "images">
+        <img src="images/shape1.png" class ="shape1">
+        <img src ="images/pic2.png" class ="pic2">
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/background.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p></p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Language</span><br>Python, Java, HTML, CSS, Ruby, C, Ocaml, JavaScript, TypeScript</li>
+                        <li><span>Technologies/Framework </span><br>Angular, React Native, NodeJs, MongoDB, Visual Studios, IntelliJ, Git/Github, Jupyter Notebook</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>August 2023 - December 2023</span><br>Junior Web Developer(Part-Time) - Mcnamara Alumni Center </li>
+                        <p>
+                            - Conduct regular updates and maintenance activities to ensure websites remain current and function optimally within the Excel file.
+                        </p>
+                        <p>
+                            - Maintain thorough and <b> accurate documentation of code changes and updates in HTML and CSS </b>
+                        </p>
+                        <p>
+                            - Collaborate with designers, UX/UI specialists, and other team members to bridge the gap between design concepts and practical implementation.
+                        </p>
+                        <p>
+                            - Assist in the implementation of website designs by <b> translating visual concepts into clean, well-structured HTML and CSS code.</b>
+                        </p>
+
+
+                     
+                        <li><span>June 2023 - August 2023</span><br>Software Support Engineer(Intern) - Minnesota Supercomputing Institute</li>
+                        <p>
+                            - Assisting users with a primary focus on <b>Linux command-line</b> solutions.
+
+                        </p>
+                        <p>
+                            - Addressing a wide range of software-related issues at the institute.
+
+                        </p>
+                        <p>
+                            - Assisting users with software installation, configuration, and optimization.
+
+                        </p>
+                        - Offering holistic <b> support for software-related challenges beyond the Linux command line </b> , covering various applications and tools in scientific computing environments.
+                       
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 August - Present </span><br>University of Minnesota Twin-Cities - Bachelor of Science in Computer Science
+                            <p>- Dean’s List: Scholarly award for students who demonstrate <b>academic excellence</b>
+                                <p>
+                                    - Coursework: Coursework: CSCI 1133: Introduction to <b>Computing and Programming Concepts in Python</b>, CSCI 2011: <b>Discrete Structures</b> of Computer
+                                    Science, CSCI 1933: Introduction to <b>Algorithms and Data Structures</b> in Java, STAT3021: Introduction to <b>Probability and Statistics</b>
+                                </p> </p></li>
+                        
+                        <li><span>2019 May - 2022 May</span><br>Logos International School - High School Diploma
+                            <p>- Certificate of High Honor: Maintaining <b>all A's </b</p>
+                            <p>- Coursework: AP Computer Science Principles, AP Physics 1, AP Statistics, AP Calculus AB</p></li>                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------projects---------------- -->
+<div id="Projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="Projects-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Personal Portfolio</h2>
+                <p> Successfully designed and developed my resume website utilizing HTML and CSS. I have learned about HTML Markup,CSS styling and Animation,and Web Design 
+                </p>
+                <a href="https://github.com/taehoonkang1/Personal-Portfolio">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <h2> Minesweeper</h2>
+                <p>Developed a Java-based Minesweeper game featuring difficulty selection, dynamic minefield generation, and user-friendly input validation. Implemented core gameplay mechanics, including revealing cells, flag placement, and game-over scenarios. Employed object-oriented programming principles and data structures for modular and scalable code. Demonstrates proficiency in Java programming and algorithmic problem-solving.
+                </p>
+                <a href="https://github.com/taehoonkang1/Minefield">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chess"></i>              
+                <h2> Chess</h2>
+                <p> Devloped a Java-based fully functional chess game with comprehensive coverage of movement rules for various chess pieces, such as Rook, Pawn, Knight, Queen, and King. It incorporates an interactive game interface that enables users to make moves effortlessly, enhancing the overall experience with a user-friendly design. This implementation not only demonstrates proficiency in Java programming but also showcases a strong grasp of object-oriented design principles, meticulous testing practices utilizing JUnit, and a solid understanding of game development concepts.
+                </p>
+                <a href="https://github.com/taehoonkang1/Chess">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class = "contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>kang0493@umn.edu</p>
+                <p><i class="fas fa-phone-square-alt"></i> +1 217-974-6228</p>
+                <div class="social-icons">
+                    <a href="https://github.com/taehoonkang1"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/taehoon-kang"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Taehoon_Resume.pdf" download class="btn btn2"> Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxvCWDUxnWP1NzMscBmpDZYPzf3nwQmWcBP6iMJyWn7JyhQ2HhaCQnAzgilX5_HLrGn/exec ' 
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>

@@ -1,15 +1,15 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import Script from 'next/script';
 
 // components
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
 
-
 const poppins = Poppins({
   subsets: ['latin'],
-  weight: ['400', '700'], 
+  weight: ['400', '700'],
 });
 
 export const metadata = {
@@ -20,6 +20,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <Script id="dynamic-base" strategy="beforeInteractive">
+          {`
+            const base = document.createElement('base');
+            base.href = window.location.pathname.startsWith('/thkang091.github.io') 
+              ? '/thkang091.github.io/' 
+              : '/';
+            document.head.appendChild(base);
+          `}
+        </Script>
+      </head>
       <body className={poppins.className}>
         <Header />
         <StairTransition />

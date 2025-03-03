@@ -34,9 +34,7 @@ const Social = () => {
 
 const stats = [
   { num: 4, text: "Internships Experiences" },
-  { num: 1, text: "Research Experiences" },
-  { num: 1000, text: "App Downloads" },
-  { num: 5000, text: "Web User Sessions" },
+  { num: 1, text: "Research Experiences" }
 ];
 
 const Stats = () => {

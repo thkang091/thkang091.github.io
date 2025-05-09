@@ -33,7 +33,7 @@ const Social = () => {
 };
 
 const stats = [
-  { num: 4, text: "Internships Experiences" },
+  { num: 3, text: "Internships Experiences" },
   { num: 1, text: "Research Experiences" }
 ];
 

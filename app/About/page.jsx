@@ -273,9 +273,8 @@ const About = () => {
         "Data Structures and Algorithms",
         "Machine Learning",
         "Database Management Systems",
-        "Computer Networks",
+        "Machine Architecture",
         "Artificial Intelligence",
-        "Software Engineering"
       ]
     }
   ];
@@ -283,15 +282,15 @@ const About = () => {
   const skills = {
     categories: {
       "All": [
-        { icon: FaPython, name: "Python", experience: 3 },
-        { icon: FaJava, name: "Java", experience: 3 },
-        { icon: SiCplusplus, name: "C++", experience: 2 },
-        { icon: SiCsharp, name: "C#", experience: 2 },
-        { icon: FaHtml5, name: "HTML 5", experience: 3 },
-        { icon: FaCss3, name: "CSS 3", experience: 3 },
-        { icon: FaJs, name: "JavaScript", experience: 3 },
-        { icon: SiTypescript, name: "TypeScript", experience: 2 },
-        { icon: DiSqllite, name: "SQL", experience: 2 },
+        { icon: FaPython, name: "Python", experience: 1 },
+        { icon: FaJava, name: "Java", experience: 1 },
+        { icon: SiCplusplus, name: "C++", experience: 1 },
+        { icon: SiCsharp, name: "C#", experience: 1 },
+        { icon: FaHtml5, name: "HTML 5", experience: 1 },
+        { icon: FaCss3, name: "CSS 3", experience: 1 },
+        { icon: FaJs, name: "JavaScript", experience: 1 },
+        { icon: SiTypescript, name: "TypeScript", experience: 1 },
+        { icon: DiSqllite, name: "SQL", experience: 1 },
         { icon: SiGo, name: "Go/Golang", experience: 1 },
         { icon: FaPhp, name: "PHP", experience: 2 },
         { icon: SiScala, name: "Scala", experience: 1 },
